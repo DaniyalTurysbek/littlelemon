@@ -1,0 +1,74 @@
+/* CSS */
+
+body {
+    margin: 0;
+    height: 100vh;   
+    background-color: #f0f0f0;
+}
+.page1 {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #26ad11; 
+    background-image:url(/web/icons/1614585556_68-p-belii-fon-pikseli-102.jpg);
+}
+
+.play_button{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: none; 
+    border-radius: 50%; 
+    transition: background-color 0.3s;
+    width: 100px;
+    height: 100px;
+}
+
+.play_button:hover {
+    background-color: #b30000;
+}
+
+.play_button img {
+    width: 100px;
+    height: 100px; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+} 
+
+.login{
+    color: #26ad11;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
